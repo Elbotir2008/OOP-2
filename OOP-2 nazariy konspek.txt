@@ -1,0 +1,18 @@
+Builting-in-classes - javascsriptda bor bo'lgan class. Eror classini qo'lda yaratish. Xuddi biz stringa Uppercase, trim va hokazo methodlarni yaratganimiz kabi.
+Map and WeakMap
+Map - bu objectdan ozgina farq qiladi. Farqi map objectdan texroq ishlaydi, mapda key sifatida object ham kelishi mumkin lekin objectda key sifatida object kelmaydi va mapning methodlari objectdan ko'ra kamroq. Lekin butun programmingda object baribir ko'p ishlatiladi. Eslatib o'tamiz map ham objectga kiradi yani u ham nonpremitive. Map sintaxsizi xudi objectni entiriesga o'xshaydi, qarib bir xil ham desa bo'ladi.
+Map methods- get, set, delete, clear, has, foreach, keys, values, entries. 
+
+WeakMap - faqat object key bo'laoladi, methodlardan faqat get ishlaydi, set ishlaydi, has ishlaydi, delete ishlaydi, size degan property yoq bunda va elemetlarni iterated qilib bo'lmaydi ya'ni elementlarni loop qilib aylantirib bo'lmaydi siklda.
+
+Set and WeakSet
+Set - har doim set bir xil ishlatilgan qiymatni yoki elemntni qaysinidirni oladi va qolganini kesib tashlaydi. Map methods- get, set, delete, clear, has, foreach, keys, values, entries. Set methods- get, set, delete, clear, has, foreach, keys, values, entries.
+
+WeakSet - setdan farqi faqat methodlardan add, has va delete ishlaydi xolos.
+
+Built-in iterable objects (for of) - 
+- Array
+- String
+- Set
+- Map
+larga ishlatish mumkin "for of" ni
